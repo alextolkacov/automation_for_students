@@ -15,7 +15,7 @@ public class BaseFunc {
     private WebDriver driver;
 
     public BaseFunc() {
-        System.setProperty("webdriver.chrome.driver", "C://QA//chromedriver_win32/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/Users/aleksandrs.tolkacovs/Downloads/chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
